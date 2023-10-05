@@ -1,3 +1,5 @@
+import "@/assets/scss/style.scss";
+
 export const metadata = {
   title: "Tech Hub",
   description: "나만의 학습 사이트를 컨셉으로 만든 페이지입니다.",
