@@ -1,15 +1,28 @@
-import about from "../assets/img/about.jpg";
-import port01 from "../assets/img/port01.jpg";
-import port02 from "../assets/img/port02.jpg";
-import port03 from "../assets/img/port03.jpg";
-import port04 from "../assets/img/port04.jpg";
-import port05 from "../assets/img/port05.jpg";
-import port06 from "../assets/img/port06.jpg";
-import port07 from "../assets/img/port07.jpg";
-import port08 from "../assets/img/port08.jpg";
-import port09 from "../assets/img/port09.jpg";
-import port10 from "../assets/img/port10.jpg";
+/* import about from "../assets/img/about.jpg";
+import port01 from "../assets/img/port01.jpg"; */
 
+export const headerText = [
+  {
+    title: "홈",
+    desc:["최신 소식", "인기 기사", "프로젝트 소개", "사이트 업데이트"],
+  },
+  {
+    title: "기술 뉴스",
+    desc:["IT 소식", "기술 통합",],
+  },
+  {
+    title: "프로젝트",
+    desc:["진행 중인 프로젝트", "완료된 프로젝트", "새로운 아이디어", "프로젝트 일정"],
+  },
+  {
+    title: "기술 문서",
+    desc:["기술 가이드", "API 문서","사용자 메뉴얼","FAQ","문제 해결",],
+  },
+  {
+    title: "연락처",
+    desc:["회사 연락처", "고객 지원"],
+  },
+]
 
 export const headerNav = [
     {
@@ -37,10 +50,3 @@ export const headerNav = [
       url: "#footer"
     },
   ];
-
-
-export const introText = {
-    title : "port developer",
-    desc: ["talent is", "found at the end of the", "effort"],
-    img : about
-};

@@ -77,3 +77,19 @@ img {
 .clearfix::after {
     clear: both;
 }
+
+// 스킵메뉴
+#skip a {
+    position: absolute;
+    left: 10px;
+    top: -92px;
+    z-index: 100000;
+    font-size: 1rem;
+    padding: 10px 30px;
+    color: #fff;
+    background: #000;
+}
+#skip a:focus,
+#skip a:active {
+    top: 10px;
+}

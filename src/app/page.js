@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect } from "react";
+import Skip from "@/components/Skip";
 import Header from "@/components/Header";
 import Slider from "@/components/Slider";
 import ImageContent from "@/components/ImageContent";
@@ -19,6 +20,7 @@ export default function Home() {
 
   return (
     <>
+      <Skip />
       <Header />
       <main id="main" role="main">
         <Slider />
