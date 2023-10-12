@@ -5,8 +5,17 @@
 - 특별한 이미지는 Image 컴포넌트를 사용하여 lazy loading 및 layout shift를 방지합니다.
 
 
-## 완성작 보기 
-- [사이트 바로가기](https://mytechhub2023.netlify.app/)
+## 완성작 보기
+- <a href="https://mytechhub2023.netlify.app/" target="_blank" rel="noopener noreferrer">사이트 바로가기</a>
+
+<script>
+    const links = document.querySelectorAll('a[target="_blank"]');
+    links.forEach(link => {
+        link.addEventListener('click', () => {
+            window.open(link.href, '_blank');
+        });
+    });
+</script>
 
 ## 사용 스택
 - next(https://nextjs.org/) 를 사용하여 사이트를 번들링하고 관리합니다.
@@ -22,3 +31,5 @@
 - 터미널에서 npm install 입력하여 설치.
 - npm run dev 입력.
 - 브라우저 http://localhost:3000/ 에서 확인.
+
+
