@@ -6,16 +6,7 @@
 
 
 ## 완성작 보기
-- <a href="https://mytechhub2023.netlify.app/" target="_blank" rel="noopener noreferrer">사이트 바로가기</a>
-
-<script>
-    const links = document.querySelectorAll('a[target="_blank"]');
-    links.forEach(link => {
-        link.addEventListener('click', () => {
-            window.open(link.href, '_blank');
-        });
-    });
-</script>
+- [사이트 바로가기](https://mytechhub2023.netlify.app/)
 
 ## 사용 스택
 - next(https://nextjs.org/) 를 사용하여 사이트를 번들링하고 관리합니다.
