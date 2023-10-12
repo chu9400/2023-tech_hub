@@ -6,7 +6,7 @@
 
 
 ## 완성작 보기 
-- [사이트 바로가기][https://mytechhub2023.netlify.app/]
+- <a href="https://mytechhub2023.netlify.app/" target="_blank">사이트 바로가기</a>
 
 ## 사용 스택
 - next(https://nextjs.org/) 를 사용하여 사이트를 번들링하고 관리합니다.
