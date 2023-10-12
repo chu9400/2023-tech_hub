@@ -55,8 +55,6 @@ const Header = () => {
       setActiveMenu(index);
     };
 
-    /* 모바일 서브메뉴 닫기  */
-    const [mobileSubMenuOn, setMobileSubMenuOn] = useState(false);
   /*---- 모바일 화면 END ---- */
 
   return (
@@ -119,7 +117,6 @@ const Header = () => {
                       onClick={(e) => {
                         e.preventDefault();
                         handleLinkClick(headerTextNum);
-                        setMobileSubMenuOn(!mobileSubMenuOn);
                       }}
                     >
                       <span
@@ -130,14 +127,7 @@ const Header = () => {
                         {headerTextItem.title}
                       </span>
                     </a>
-                    <ul
-                      className={`list__sub ${
-                        mobileSubMenuOn == true ? 
-                          (activeMenu === headerTextNum ? "list__sub__on" : "") 
-                        : ""
-                        
-                      }`}
-                    >
+                    <ul className = {`list__sub ${activeMenu === headerTextNum ? "list__sub__on" : ""}`}>
                       {headerTextItem.desc.map((descItem, descNum) => {
                         return (
                           <li key={descNum}>

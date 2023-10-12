@@ -14,6 +14,10 @@
 - HTML, CSS 기반으로 웹사이트의 기본 레이아웃 설계하고, 웹 표준 및 웹 접근성을 준수하여 작업합니다. [ARIA(Accessible Rich Internet Applications)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
 
 ## 프로젝트 실행
+- 압축 파일을 다운 받고 터미널에서 npm install 입력 후
+- npm run dev 입력 후 
+- 브라우저 http://localhost:3000/ 에서 확인.
+
 - next를 설치합니다. `npx create-next-app@latest`
 - sass를 설치합니다. `npm install sass`
-- lenis를 설치합니다. `npm install @studio-freight/lenis`"# 2023-tech_hub" 
+- lenis를 설치합니다. `npm install @studio-freight/lenis` 
