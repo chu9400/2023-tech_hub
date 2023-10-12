@@ -1,8 +1,31 @@
-import React from 'react'
+import React from "react";
+import {textContentArray} from "@/constants";
 
 const TextContent = () => {
   return (
-    <div>TextContent</div>
+    <section id="textType" className="text__wrap nexon section">
+      <p>스킬 향상</p>
+      <h2>프로그래밍 스킬 향상</h2>
+
+      <div className="text__inner container">
+        
+        {
+          textContentArray.map( (textContentText, textContentNum) => {
+            return (
+              <article
+                className={`text__box box${textContentNum + 1}`} 
+                key={textContentNum}
+              >
+                <h3 className="title">{textContentText.title}</h3>
+                <p className="desc">{textContentText.desc}</p>
+                <a className="btn__txt" href="/">{textContentText.link}</a>
+              </article>
+            )
+          })
+        }
+      </div>
+
+    </section>
   )
 }
 

@@ -1,14 +1,14 @@
-/* import about from "../assets/img/about.jpg";
-import port01 from "../assets/img/port01.jpg"; */
+/* import about from "../assets/img/about.jpg";*/
+/* import port10 from "../assets/img/port10.jpg"; */
 
 export const headerText = [
   {
-    title: "홈",
+    title: "시작하기",
     desc:["최신 소식", "인기 기사", "프로젝트 소개", "사이트 업데이트"],
   },
   {
     title: "기술 뉴스",
-    desc:["IT 소식", "기술 통합",],
+    desc:["IT 소식", "기술 통합","혁신", "최근 동향"],
   },
   {
     title: "프로젝트",
@@ -20,33 +20,133 @@ export const headerText = [
   },
   {
     title: "연락처",
-    desc:["회사 연락처", "고객 지원"],
+    desc:["회사 연락처", "고객 지원", "주소록", "연락 정보"],
   },
 ]
 
 export const headerNav = [
     {
-      title: "intro",
-      url: "#intro"
+      title: "home",
+      url: "#home"
     },
     {
-      title: "skill",
-      url: "#skill"
+      title: "news",
+      url: "#news"
     },
     {
-      title: "site",
-      url: "#site"
+      title: "project",
+      url: "#project"
     },
     {
-      title: "portfolio",
-      url: "#port"
+      title: "docs",
+      url: "#docs"
     },
     {
       title: "contact",
       url: "#contact"
     },
-    {
-      title: "footer",
-      url: "#footer"
-    },
+
   ];
+
+export const sliderText = [
+    {
+      small: "publisher",
+      title: "publisher",
+      desc : "당신은 웹사이트의 얼굴을 만들고 있습니다. 이미 뛰어난 능력을 지니고 있으며, 앞으로도 더 멋진 사용자 경험을 제공할 것입니다.",
+      link_left: "더 알아보기",
+      link_right: "사이트 방문하기",
+    },
+    {
+      small: "developer",
+      title: "frontend",
+      desc : "당신은 사용자들에게 멋진 시각적 경험을 제공하고 있습니다. 앞으로도 화려한 디자인을 구현하는 역할을 수행할 것입니다.",
+      link_left: "더 알아보기",
+      link_right: "사이트 방문하기",
+    },
+    {
+      small: "developer",
+      title: "backend",
+      desc : "당신은 시스템의 핵심을 담당하고 있습니다. 이미 훌륭한 작업을 하고 있으며, 앞으로도 안정적이고 효율적인 서비스를 제공할 것입니다",
+      link_left: "더 알아보기",
+      link_right: "사이트 방문하기",
+    },
+   
+
+  ];
+
+
+export const cardTextArry = [
+  {
+    img: "/card/cardType_bg01.jpg", 
+    title : "웹표준 사이트 만들기",
+    desc : "사이트를 만들기 위한 기초강의입니다.기본 코딩에 대한 감각을 익히고, 웹 표준을 준수하면서 코딩 하는 방법을 익힙니다. 다양한 예제를 통해 사이트를 만드는 사이트입니다.",
+  },
+  {
+    img: "/card/cardType_bg02.jpg", 
+    title : "반응형 사이트 만들기",
+    desc : "모바일 기기, 태블릿, 데스크톱과 같은 다양한 화면 크기와 디바이스에 대응하는 웹사이트를 개발하는 방법에 중점을 둡니다. 이 강의에서는 웹 개발의 기본을 배우고, 화면 크기에 따라 레이아웃이 자동으로 조정되는 기술을 습득합니다.",
+  },
+  {
+    img: "/card/cardType_bg03.jpg", 
+    title : "패럴랙스 사이트 만들기",
+    desc : "웹사이트에 독특한 시각적 효과를 부여하기 위한 기술을 다루는 강의입니다. 이 강의에서는 배경 이미지와 웹페이지 요소가 다르게 움직이는 패럴랙스 스크롤링을 구현하는 방법을 배웁니다.",
+  },
+
+];
+
+export const textContentArray = [
+  {
+    title: "검색 이펙트",
+    desc: "자바스크립트의 기본 메서드를 사용하여 웹 페이지 검색 기능을 향상시키는 튜토리얼입니다. 검색 이펙트를 만드는 방법을 자세히 살펴봅니다.",
+    link: "더보기"
+  },
+  {
+    title: "퀴즈 이펙트",
+    desc: "자바스크립트를 활용하여 흥미로운 퀴즈 이펙트를 만드는 방법을 알려드립니다. 사용자에게 퀴즈를 제공하고 그 결과를 표시하는 기능을 구현하는 방법을 배워보세요.",
+    link: "더보기"
+  },
+  {
+    title: "마우스 이펙트",
+    desc: "웹 페이지에 동적 마우스 이펙트를 추가하는 자습서입니다. 자바스크립트 메서드를 사용하여 마우스 움직임에 반응하는 효과를 구현하는 방법을 배워보세요.",
+    link: "더보기"
+  },
+  {
+    title: "슬라이드 이펙트",
+    desc: "슬라이드 이펙트를 만드는 방법을 자세히 살펴보는 튜토리얼입니다. 웹 페이지에서 컨텐츠를 슬라이딩하는 효과를 구현하는 방법을 알려드립니다.",
+    link: "더보기"
+  },
+  {
+    title: "패럴랙스 이펙트",
+    desc: "패럴랙스 스크롤 이펙트를 만드는 방법을 배우는 튜토리얼입니다. 웹 페이지에서 멋진 패럴랙스 스크롤 효과를 적용하는 방법을 알려드립니다.",
+    link: "더보기"
+  },
+  {
+    title: "게임 이펙트",
+    desc: "간단한 웹 게임을 만드는 방법을 소개하는 튜토리얼입니다. 자바스크립트를 사용하여 게임 로직을 구현하고 사용자와 상호 작용하는 게임을 만드는 방법을 배워보세요.",
+    link: "더보기"
+  },
+];
+
+
+export const footerArry = [
+  {
+    title: "홈",
+    descItem: ["최신 소식", "인기 기사", "프로젝트 소개", "사이트 업데이트"]
+  },
+  {
+    title: "기술 뉴스",
+    descItem: ["IT 소식", "기술 통합", "혁신", "최근 동향"]
+  },
+  {
+    title: "프로젝트",
+    descItem: ["진행 중인 프로젝트", "완료된 프로젝트", "새로운 아이디어", "프로젝트 일정"]
+  },
+  {
+    title: "기술 문서",
+    descItem: ["기술 가이드", "API 문서", "사용자 메뉴얼", "FAQ", "문제 해결"]
+  },
+  {
+    title: "연락처",
+    descItem: ["회사 연락처", "고객 지원", "주소록", "연락 정보"]
+  }
+];
