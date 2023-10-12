@@ -4,8 +4,8 @@ import {textContentArray} from "@/constants";
 const TextContent = () => {
   return (
     <section id="textType" className="text__wrap nexon section">
-      <p>스킬 향상</p>
-      <h2>프로그래밍 스킬 향상</h2>
+      <p className="small">스킬 향상</p>
+      <h2 className="title">프로그래밍 스킬 향상</h2>
 
       <div className="text__inner container">
         

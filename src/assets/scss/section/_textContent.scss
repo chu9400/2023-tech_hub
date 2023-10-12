@@ -1,12 +1,12 @@
 .text__wrap {
 
-    &p {
+    .small {
         text-decoration: underline;
         text-underline-position : under;
         margin-bottom: 20px;
     }
 
-    h2 {
+    .title {
         margin-bottom: 70px;
     }
 }

@@ -173,6 +173,7 @@
     background : rgba(0,0,0,0.5);
     z-index : 2;
     padding: 30px;
+    padding-left: 0;
     padding-top: 140px;
     display: none;
 }
@@ -187,6 +188,7 @@
     margin: 0 auto;
     border-radius: 5px;
     padding: 30px;
+    box-sizing: border-box;
 }
 
 .modal__title {
@@ -370,6 +372,7 @@
         order: 3;
         display: block;
         width: 70%;
+        height: 80px;
         position: relative;
         top: 0;
         right: 0; 
@@ -441,9 +444,7 @@
         p {
             text-align: center;
         }
-    }
-    
-    
+    } 
 }
 
     
@@ -494,5 +495,17 @@
         }
         
     }
+
+}
+
+@media (max-width:480px) {
+    .main__menu{
+        .btn__menu {
+            width: 30%;
+        }
+    }
     
+    .modal__inner {
+        width: 95%;
+    }
 }

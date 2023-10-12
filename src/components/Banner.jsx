@@ -8,10 +8,10 @@ const Banner = () => {
         <div className="banner__inner">
             <h3 className="title">기술 강의와 더 많은 콘텐츠</h3>
             <p className="desc">
-                더 다양한 강의는 유튜브를 통해 제공하고 있습니다.
+                강의는 유튜브를 통해 제공하고 있습니다.
                 <a href="https://www.youtube.com/" title="유튜브 사이트 이동" target="_blank">www.youtube.com</a>
             </p>
-            <span className="small">배너 유형01</span>
+            <span className="small">유용한 리소스 더보기</span>
         </div>
     </section>
   )
