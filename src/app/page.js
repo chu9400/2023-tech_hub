@@ -11,11 +11,13 @@ import Banner from "@/components/Banner";
 import TextContent from "@/components/TextContent";
 import Footer from "@/components/Footer";
 import lenis from "@/utils/lenis";
+import link from "@/utils/link";
 
 export default function Home() {
   
   useEffect(() => {
     lenis();
+    link();
   }, [])
 
   return (

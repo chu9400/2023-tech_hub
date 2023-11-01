@@ -4,7 +4,7 @@ import {footerArry} from "@/constants";
 
 function Footer() {
   return (
-    <footer id="footerType" className="footer__wrap nexon section">
+    <footer id="footerType" className="footer__wrap nexon section" >
         <h2 className="blind">푸터 영역</h2>
         <div className="footer__inner container">
 
@@ -25,8 +25,6 @@ function Footer() {
                 )
               })}
                 
-                
-
             </div>
 
             <div className="footer__copy__rigth">
